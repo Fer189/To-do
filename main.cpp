@@ -13,7 +13,7 @@ int main() {
   while(!finished) {
     cout << "\nTasks:\n";
     for(auto element = tasks.cbegin(); element != tasks.cend(); ++element) {
-      cout << "- " << element->first << ": " << element->second << endl;;
+      cout << "- " << element->first << ": " << element->second << endl;
     }
 
     cout << "\n1: Add task\n";
